@@ -5,9 +5,9 @@
 using namespace std;
 
 void exercise_1(string a, string b, string c) {
- a = "Wibo";
- b = "Webo"; 
- c = "Wabu";
+ a = "milk";
+ b = "milkshake"; 
+ c = "month";
  if (a < b && a < c){
   cout << a;
  } 
@@ -112,10 +112,21 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
 int resa;
+int resb;
 int resf;
 cin >> a;
 cin >> b;
 resa = a + b;
+resb = 0;
+while(resa>0){
+    resb = resb + resa%10;
+    resa = resa / 10;
+}
+resa = a + b;
+cout << resb << endl;
+resf = resb * resa;
+cout << resf << endl;
+
 }
 
 string exercise_11(int number) {
@@ -166,7 +177,7 @@ else{
 }
 
 void exercise_15(int a, int b, int c) {
-  // TODO: YOUR CODE HERE
+
 }
 
 void exercise_16(int debut, int fin) {
