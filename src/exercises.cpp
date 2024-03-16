@@ -123,7 +123,24 @@ else {
 }
 
 void exercise_8(long int seconds) {
-
+int h;
+int m;
+h = seconds/3600;
+seconds = seconds%3600;
+m = seconds/60;
+seconds = seconds%60;
+if(h < 10 && m < 10){
+    cout << "0" << h << ":" << "0" << m << ":" << seconds << endl;
+}
+else if(h < 10 && m >= 10){
+    cout << h << ":" << "0" << m << ":" << seconds << endl;
+}
+else if(m < 10 && h >= 10){
+    cout << h << ":" << "0" << m << ":" << seconds << endl;
+}
+else{
+  cout << h << ":" << m << ":" << seconds << endl;  
+}
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
@@ -143,7 +160,6 @@ resa = a + b;
   resa = a + b;
   resf = resb * resa;
   cout << resf << endl;
-return "0";
 }
 
 string exercise_11(int number) {
