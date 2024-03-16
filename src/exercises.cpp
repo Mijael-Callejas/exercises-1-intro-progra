@@ -4,11 +4,11 @@
 
 using namespace std;
 
-void exercise_1(string a, string b, string c) {
+void exercise_1(string s1, string s2, string s3) {
  if (a < b && a < c){
   cout << a;
  } 
- else if(b < a && b < c){
+else if(b < a && b < c){
   cout << b;
  } 
 else if(c < b && c < a){
