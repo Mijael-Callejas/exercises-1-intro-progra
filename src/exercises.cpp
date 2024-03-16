@@ -27,7 +27,7 @@ if(D > 0 && A != 0){
   double res2 = (-B - raiz) / (2 * A);
   cout << res1 << " " << res2 << endl;
 }
-else if(D > 0 && A != 0){
+else if(D == 0 && A != 0){
   double raiz = sqrt (D);
   double res1 = (-B + raiz) / (2 * A);
   cout << res1 << endl;
