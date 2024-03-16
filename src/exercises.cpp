@@ -176,7 +176,7 @@ else if(number_of_docs == 1){
 return "Se encontro un documento";
 }
 else if (number_of_docs > 1){
-  printf(number_of_docs);
+  printf("\i") number_of_docs;
 return " documentos encontrados";
 }
 return "";
