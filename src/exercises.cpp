@@ -153,15 +153,17 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
-
 if(age >= 18 && years_of_experience >= 0 && years_of_experience < 3){
-    cout << "coordinador de proyecto" << endl;
+    cout << "Project coordinator" << endl;
 }
 else if(age >= 18 && years_of_experience >= 3 && years_of_experience < 5){
-    cout << "director de proyecto"  << endl;
+    cout << "Project manager"  << endl;
 }
 else if(age >= 18 && years_of_experience >= 5){
-    cout << "director senior"  << endl;
+    cout << "Senior project manager"  << endl;
+}
+else{
+  cout << "Not eligible" << endl;
 }
   return "";
 }
@@ -185,5 +187,6 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
+  int hora;
 
 }
