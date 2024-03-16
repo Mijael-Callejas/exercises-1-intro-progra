@@ -14,6 +14,9 @@ else if(s2 < s1 && s2 < s3){
 else if(s3 < s2 && s3 < s1){
   cout << s3;
  } 
+ else {
+  cout << s1;
+ }
  }
 
 void exercise_2(double A, double B, double C) {
