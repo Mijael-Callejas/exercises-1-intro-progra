@@ -130,7 +130,6 @@ while(resa>0){
 }
 resa = a + b;
 resf = resb * resa;
-cout << resf << endl;
 
 }
 
