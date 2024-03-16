@@ -141,10 +141,14 @@ while(resa>0){
     resb = resb + resa%10;
     resa = resa / 10;
 }
-
+if(resb > 9){
+  resa = a + b;
+  resf = resa * 2;
+}
+else{
 resa = a + b;
 resf = resb * resa;
-
+}
 }
 
 string exercise_11(int number) {
@@ -199,6 +203,6 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-  int hora;
+
 
 }
