@@ -135,6 +135,16 @@ int exercise_10(int a, int b) {
 int resa;
 int resb = 1;
 int resf;
+if (a < 0){
+  resf = 0
+}
+else if (b < 0){
+  resf = 0
+}
+else if (a < 0 && b < 0){
+  resf = 0
+}
+else{
 resa = a + b;
   while (resa >= 10){
     resa = resa / 10;
@@ -143,6 +153,7 @@ resa = a + b;
 resa = a + b;
 resf = resb * resa;
 cout << resf << endl;
+}
 }
 
 string exercise_11(int number) {
