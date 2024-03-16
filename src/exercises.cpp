@@ -35,7 +35,7 @@ else if(D > 0 && A != 0){
 else if (A == 0 && B != 0){
   cout << (-1 * (C)) / B << endl;
 }
-else if (A! = 0 && B == 0){
+else if (A != 0 && B == 0){
   cout << sqrt (C/A) << endl;
 }
 else {
