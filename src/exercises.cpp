@@ -122,8 +122,6 @@ int exercise_10(int a, int b) {
 int resa;
 int resb;
 int resf;
-cin >> a;
-cin >> b;
 resa = a + b;
 resb = 0;
 while(resa>0){
