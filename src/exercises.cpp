@@ -122,6 +122,7 @@ cout << resf << endl;
 }
 
 string exercise_11(int number) {
+  cin >> number;
 if (number == 11235813){
     cout << "Esto es de Fibonacci" << endl;
 }
