@@ -136,14 +136,13 @@ int resa;
 int resb = 1;
 int resf;
 resa = a + b;
-while(resa>0){
-    resb = resb + resa%10;
+  while (resa >= 10){
     resa = resa / 10;
-}
-resa = a + b;
-resf = resb * resa;
-cout << resf << endl;
-
+    resb ++;
+  }
+  resa = a + b;
+  resf = resb * resa;
+  cout << resf << endl;
 }
 
 string exercise_11(int number) {
