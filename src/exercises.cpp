@@ -133,22 +133,16 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
 int resa;
-int resb;
+int resb = 1;
 int resf;
 resa = a + b;
-resb = 0;
-while(resa>0){
-    resb = resb + resa%10;
+  while (resa >= 10){
     resa = resa / 10;
-}
-if(resb > 9){
+    resb ++;
+  }
   resa = a + b;
-  resf = resa * 2;
-}
-else{
-resa = a + b;
-resf = resb * resa;
-}
+  resf = resb * resa;
+  cout << resf << endl;
 }
 
 string exercise_11(int number) {
