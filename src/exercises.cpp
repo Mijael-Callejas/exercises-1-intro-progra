@@ -34,8 +34,8 @@ void exercise_3(int a, int b) {
     int resultado = a / b;
     cout << "El resultado es: " << resultado;
   }
-  else {
-    cout >> "El resultado es: " >> resultado;
+  else{
+  cout >> "El resultado es: " >> resultado;
   }
 }
 
