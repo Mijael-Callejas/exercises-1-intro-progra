@@ -20,7 +20,27 @@ else if(s3 < s2 && s3 < s1){
  }
 
 void exercise_2(double A, double B, double C) {
-
+double D = (B * B) - 4 * A * C;
+if(D > 0 && A != 0){
+  double raiz = sqrt (D);
+  double res1 = (-B + raiz) / (2 * A);
+  double res2 = (-B - raiz) / (2 * A);
+  cout << res1 << " " << res2 << endl;
+}
+else if(D > 0 && A != 0){
+  double raiz = sqrt (D);
+  double res1 = (-B + raiz) / (2 * A);
+  cout << res1 << endl;
+}
+else if (A == 0 && B != 0){
+  cout << (-1 * (C)) / B << endl;
+}
+else if (A! = 0 && B == 0){
+  cout << sqrt (C/A) << endl;
+}
+else {
+  cout << " " << endl;
+}
 }
 
 void exercise_3(int a, int b) {
