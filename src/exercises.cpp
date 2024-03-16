@@ -29,8 +29,7 @@ void exercise_3(int a, int b) {
   cin >> b;
   if (b == 0){
     cout << "Imposible";
-  }
-  else{
+  } else{
     int resultado = a / b;
     cout << "El resultado es: " << resultado;
   }
