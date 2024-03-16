@@ -106,7 +106,7 @@ void exercise_8(long int seconds) {
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
-  // TODO: YOUR CODE HERE
+
   return "";
 }
 
@@ -181,5 +181,5 @@ void exercise_15(int a, int b, int c) {
 }
 
 void exercise_16(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+
 }
