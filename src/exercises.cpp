@@ -39,7 +39,7 @@ else if (A != 0 && B == 0){
   cout << sqrt (C/A) << endl;
 }
 else {
-  cout << " ";
+  cout << "";
 }
 }
 
@@ -53,7 +53,7 @@ void exercise_3(int a, int b) {
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
-  // TODO: YOUR CODE HERE
+
 }
 
 void exercise_5(char character) {
