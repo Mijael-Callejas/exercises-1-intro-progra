@@ -93,7 +93,7 @@ else if(a == 7){
     cout << "Sunday" << endl;
 }
 else{
-    cout << "Invalid input";
+    cout << "Invalid input" << endl;
 }
 }
 
