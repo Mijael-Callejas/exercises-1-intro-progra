@@ -72,25 +72,25 @@ void exercise_5(char character) {
 
 void exercise_6(int a) {
 if(a == 1){
- cout << "Lunes";
+ cout << "Monday" << endl;
 }
 else if(a == 2){
-    cout << "Martes";
+    cout << "Tuesday" << endl;
 }
 else if(a == 3){
-    cout << "Miercoles";
+    cout << "Wednesday" << endl;
 }
 else if(a == 4){
-    cout << "Jueves";
+    cout << "Thursday"<< endl;
 }
 else if(a == 5){
-    cout << "Viernes";
+    cout << "Friday" << endl;
 }
 else if(a == 6){
-    cout << "Sabado";
+    cout << "Saturday" << endl;
 }
 else if(a == 7){
-    cout << "Domingo";
+    cout << "Sunday" << endl;
 }
 else{
     cout << "Invalid input";
@@ -128,6 +128,7 @@ while(resa>0){
     resb = resb + resa%10;
     resa = resa / 10;
 }
+
 resa = a + b;
 resf = resb * resa;
 
