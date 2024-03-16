@@ -178,7 +178,8 @@ return "Se encontro un documento";
 else if (number_of_docs > 1){
 cout << number_of_docs;
 return " documentos encontrados"
-  return "";
+}
+return "";
 }
 
 void exercise_15(int a, int b, int c) {
