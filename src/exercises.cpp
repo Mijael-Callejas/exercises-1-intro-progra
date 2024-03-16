@@ -45,7 +45,7 @@ else {
 
 void exercise_3(int a, int b) {
   if (b == 0){
-    cout << "Imposible\n" << endl;
+    cout << "Imposible\n";
   } else{
     int resultado = a / b;
     cout << resultado << endl;
