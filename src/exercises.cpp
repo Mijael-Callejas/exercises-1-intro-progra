@@ -176,7 +176,7 @@ else if(number_of_docs == 1){
 return "Se encontro un documento";
 }
 else{
-return number_of_docs " Documentos encontrados";
+cout << number_of_docs << " Documentos encontrados" << endl;
 }
   return "";
 }
