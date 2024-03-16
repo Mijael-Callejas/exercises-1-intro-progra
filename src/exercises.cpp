@@ -204,7 +204,7 @@ else if(number_of_docs == 1){
 return "Se encontro un documento";
 }
 else if (number_of_docs > 1){
-return to string (number_of_docs) + " documentos encontrados";
+return to_string number_of_docs + " documentos encontrados";
 }
 return "";
 }
