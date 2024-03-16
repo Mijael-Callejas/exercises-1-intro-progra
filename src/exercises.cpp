@@ -5,7 +5,7 @@
 using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
- if (s1 < s2 && s1 < s3){
+if (s1 < s2 && s1 < s3){
   cout << s1;
  } 
 else if(s2 < s1 && s2 < s3){
@@ -24,9 +24,6 @@ void exercise_2(double A, double B, double C) {
 }
 
 void exercise_3(int a, int b) {
-  cout << "Ingrese 2 numeros que sean de entre 100" << endl;
-  cin >> a;
-  cin >> b;
   if (b == 0){
     cout << "Imposible";
   } else{
