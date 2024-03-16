@@ -175,7 +175,7 @@ return "No se encontraron documentos";
 else if(number_of_docs == 1){
 return "Se encontro un documento";
 }
-else{
+else if (number_of_docs > 1){
 cout << number_of_docs << " " << "documentos encontrados" << endl;
 }
   return "";
