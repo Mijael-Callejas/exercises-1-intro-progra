@@ -136,7 +136,7 @@ int resa;
 int resb = 1;
 int resf;
 if (a < 0){
-  resf = 0
+  resf = 0;
 }
 else if (b < 0){
   resf = 0;
