@@ -135,12 +135,12 @@ resf = resb * resa;
 }
 
 string exercise_11(int number) {
-  cin >> number;
+
 if (number == 11235813){
-    cout << "Se encontro a Fibonacci";
+    return "Se encontro a Fibonacci";
 }
 else{
-    cout << "Esto no es de Fibonacci";
+    return "Esto no es de Fibonacci";
 }
   return "";
 }
