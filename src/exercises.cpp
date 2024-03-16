@@ -170,10 +170,10 @@ else{
 
 string exercise_14(int number_of_docs) {
 if(number_of_docs == 0){
-cout << "No se encontro ningun documento" << endl;
+return "No se encontro ningun documento";
 }
 else if(number_of_docs == 1){
-cout << "Se encontro un documento" << endl;
+return "Se encontro un documento";
 }
 else{
 cout << number_of_docs << " Documentos encontrados" << endl;
