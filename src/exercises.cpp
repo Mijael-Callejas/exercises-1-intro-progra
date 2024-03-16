@@ -45,7 +45,7 @@ else {
 
 void exercise_3(int a, int b) {
   if (b == 0){
-    cout << "Imposible" << endl;
+    cout << "Imposible " << endl;
   } else{
     int resultado = a / b;
     cout << resultado << endl;
@@ -71,8 +71,6 @@ void exercise_5(char character) {
 }
 
 void exercise_6(int a) {
-cout << "Ingresa tu número de la semana!" << endl;
-cin >> a;
 if(a == 1){
  cout << "Lunes";
 }
