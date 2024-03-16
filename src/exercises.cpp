@@ -140,7 +140,7 @@ cout << resf << endl;
 string exercise_11(int number) {
   cin >> number;
 if (number == 11235813){
-    cout << "Esto es de Fibonacci" << endl;
+    cout << "Se encontro a Fibonacci" << endl;
 }
 else{
     cout << "Esto no es de Fibonacci" << endl;
@@ -156,8 +156,7 @@ void exercise_12(string color1, int numb1,
 }
 
 string exercise_13(int age, int years_of_experience) {
-cin >> age;
-cin >> years_of_experience;
+
 if(age >= 18 && years_of_experience >= 0 && years_of_experience < 3){
     cout << "coordinador de proyecto" << endl;
 }
