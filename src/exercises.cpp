@@ -154,22 +154,21 @@ void exercise_12(string color1, int numb1,
 
 string exercise_13(int age, int years_of_experience) {
 if(age >= 18 && years_of_experience >= 0 && years_of_experience < 3){
-    cout << "Project coordinator" << endl;
+    return "Project coordinator";
 }
 else if(age >= 18 && years_of_experience >= 3 && years_of_experience < 5){
-    cout << "Project manager"  << endl;
+    return "Project manager";
 }
 else if(age >= 18 && years_of_experience >= 5){
-    cout << "Senior project manager"  << endl;
+    return "Senior project manager";
 }
 else{
-  cout << "Not eligible" << endl;
+  return "Not eligible";
 }
   return "";
 }
 
 string exercise_14(int number_of_docs) {
-cin >> number_of_docs; 
 if(number_of_docs == 0){
 cout << "No se encontro ningun documento" << endl;
 }
@@ -177,7 +176,7 @@ else if(number_of_docs == 1){
 cout << "Se encontro un documento" << endl;
 }
 else{
-  cout << number_of_docs << " Documentos encontrados" << endl;
+cout << number_of_docs << " Documentos encontrados" << endl;
 }
   return "";
 }
