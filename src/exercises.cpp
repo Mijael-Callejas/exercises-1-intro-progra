@@ -139,7 +139,7 @@ cout << resf << endl;
 
 string exercise_11(int number) {
 if (number == 11235813){
-    cout << "Se encontro a Fibonacci" << endl;
+    cout << "" << endl;
 }
 else{
     cout << "" << endl;
