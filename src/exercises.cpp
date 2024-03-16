@@ -39,7 +39,7 @@ else if (A != 0 && B == 0){
   cout << sqrt (C/A) << endl;
 }
 else {
-  cout << " " << endl;
+  cout << "" << endl;
 }
 }
 
