@@ -17,8 +17,7 @@ void exercise_1(string a, string b, string c) {
 else if(c < b && c < a){
   cout << c;
  } 
- } 
-}
+ }
 
 void exercise_2(double A, double B, double C) {
 
