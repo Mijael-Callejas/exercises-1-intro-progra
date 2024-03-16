@@ -142,7 +142,7 @@ if (number == 11235813){
     cout << "Se encontro a Fibonacci" << endl;
 }
 else{
-    cout << "Esto no es de Fibonacci" << endl;
+    cout << "" << endl;
 }
   return "";
 }
