@@ -129,7 +129,6 @@ while(resa>0){
     resa = resa / 10;
 }
 resa = a + b;
-cout << resb << endl;
 resf = resb * resa;
 cout << resf << endl;
 
