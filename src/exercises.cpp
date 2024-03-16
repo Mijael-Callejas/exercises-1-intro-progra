@@ -143,6 +143,7 @@ resa = a + b;
   resa = a + b;
   resf = resb * resa;
   cout << resf << endl;
+return "0";
 }
 
 string exercise_11(int number) {
