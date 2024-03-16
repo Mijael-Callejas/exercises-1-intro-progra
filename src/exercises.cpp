@@ -125,11 +125,15 @@ else {
 void exercise_8(long int seconds) {
 int h;
 int m;
+if(seconds < 0){
+    cout << "Error: Input seconds cannot be negative." << endl;
+}
+else {
 h = seconds/3600;
 seconds = seconds%3600;
 m = seconds/60;
 seconds = seconds%60;
-if(h < 10 && m < 10 && seconds < 10){
+  if(h < 10 && m < 10 && seconds < 10){
     cout << "0" << h << ":" << "0" << m << ":" << "0" << seconds << endl;
 }
 else if(h < 10 && m >= 10 && seconds >= 10){
@@ -149,6 +153,7 @@ else if(h >= 10 && m >= 10 && seconds < 10){
 }
 else{
   cout << h << ":" << m << ":" << seconds << endl;  
+}  
 }
 }
 
