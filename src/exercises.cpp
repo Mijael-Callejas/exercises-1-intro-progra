@@ -37,9 +37,7 @@ void exercise_4(double n, double a, double b, double x, double y) {
 }
 
 void exercise_5(char character) {
-    cin >> character;
     int res = character;
-    cout << res << endl;
     if(res >= 65 && res < 91){
         cout << "lower-case alphabet" << endl;
     }
