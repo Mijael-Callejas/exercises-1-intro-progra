@@ -138,7 +138,10 @@ int resf;
 resa = a + b;
   while (resa >= 10){
     resa = resa / 10;
-    resb ++;
+    resb = resb + 1;
+    if(resa < 10){
+      break;
+    }
   }
   resa = a + b;
   resf = resb * resa;
