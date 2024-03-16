@@ -53,7 +53,20 @@ void exercise_3(int a, int b) {
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
-
+double porc;
+double desc;
+if (n > a && n < b){
+    porc = x/100 * n;
+    desc = n - porc;
+}
+else if (n > b){
+    porc = y/100 * n;
+    desc = n - porc;
+}
+else{
+    desc = n;
+}
+cout << desc << endl;
 }
 
 void exercise_5(char character) {
