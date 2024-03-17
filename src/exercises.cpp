@@ -201,6 +201,7 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
+//no pude hacerlo.
 string a = "";
 string b = "";
 string c = "";
@@ -288,5 +289,5 @@ cout << "Los valores despues de la permutacion son: a = " << c << " b = " << a <
 }
 
 void exercise_16(int debut, int fin) {
-
+//no pude hacerlo
 }
