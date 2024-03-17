@@ -174,30 +174,15 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 
 int exercise_10(int a, int b) {
 int resa;
-int resb = 1;
-int resf;
-if (a < 0){
-    resf = 0;
-    cout << resf << endl; 
-}
-else if (b < 0){
-    resf = 0;
-    cout << resf << endl;
-}
-else if(a < 0 && b < 0){
-    resf = 0;
-    cout << resf << endl;
+int resb;
+if(a < 0 && b < 0){
+  return "0"
 }
 else{
-resa = a + b;
-  while (resa >= 10){
-    resa = resa / 10;
-    resb ++;
-  }
-  resa = a + b;
-  resf = resb * resa;
-  cout << resf << endl;
-    
+   resa = a + b;
+   resb = (resa == 0)? 1:
+   (int)log10(abs(resa)) + 1;
+   return resa * resb;
 }
 }
 
