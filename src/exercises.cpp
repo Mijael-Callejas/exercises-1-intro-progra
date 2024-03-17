@@ -201,7 +201,33 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
-
+string a = "";
+string b = "";
+string c = "";
+if(color4 == color1)
+a = "1";
+else(num4 == numb1){
+    a = "1";
+}
+if(color4 == color2)
+    b = "2";
+else(num4 == numb2){
+    b = "2";
+}
+if(color4 == color3)
+    c = "3";
+else(num4 == numb3){
+    c = "3";
+}
+if(a == "1"){
+    cout << 1 << endl;
+}
+if(b == "2"){
+    cout << 2 << endl;
+}
+if(c == "3"){
+    cout << 3 << endl;
+}
 }
 
 string exercise_13(int age, int years_of_experience) {
@@ -241,6 +267,5 @@ cout << "Los valores despues de la permutacion son: a = " << c << " b = " << a <
 }
 
 void exercise_16(int debut, int fin) {
-
 
 }
