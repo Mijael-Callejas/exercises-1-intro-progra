@@ -222,6 +222,24 @@ else (numb4 == numb3);
 {
     c = "3";
 }
+if(color1 == "?")
+a = "1";
+else (numb1 == numb1);
+{
+    a = "1";
+}
+if(color2 == "?")
+    b = "";
+else (numb2 == -1);
+{
+    b = "";
+}
+if(color3 == "?")
+    c = "";
+else (numb3 == -1);
+{
+    c = "";
+}
 if(a == "1"){
     cout << 1 << endl;
 }
