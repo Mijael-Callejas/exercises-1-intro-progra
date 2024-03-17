@@ -173,12 +173,12 @@ string exercise_9(string s1, string s2, string s3, string s4, string s5) {
 }
 
 int exercise_10(int a, int b) {
-int resa;
-int resb;
 if(a < 0 && b < 0){
   return "0";
 }
 else{
+  int resa;
+  int resb;
    resa = a + b;
    resb = (resa == 0)? 1:
    (int)log10(abs(resa)) + 1;
