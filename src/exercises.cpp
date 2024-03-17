@@ -176,7 +176,7 @@ int exercise_10(int a, int b) {
 int resa;
 int resb;
 if(a < 0 && b < 0){
-  return "0"
+  return "0";
 }
 else{
    resa = a + b;
