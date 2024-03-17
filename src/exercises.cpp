@@ -206,17 +206,17 @@ string b = "";
 string c = "";
 if(color4 == color1)
 a = "1";
-else(num4 == numb1){
+else if(num4 == numb1){
     a = "1";
 }
 if(color4 == color2)
     b = "2";
-else(num4 == numb2){
+else if(num4 == numb2){
     b = "2";
 }
 if(color4 == color3)
     c = "3";
-else(num4 == numb3){
+else if(num4 == numb3){
     c = "3";
 }
 if(a == "1"){
