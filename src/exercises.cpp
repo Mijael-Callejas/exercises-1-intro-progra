@@ -200,54 +200,14 @@ void exercise_12(string color1, int numb1,
                  string color2, int numb2,
                  string color3, int numb3,
                  string color4, int numb4) {
-//no pude hacerlo.
-string a = "";
-string b = "";
-string c = "";
-if(color4 == color1)
-a = "1";
-else (numb4 == numb1);
-{
-    a = "1";
+if(color4== "?" && numb1==numb4 || numb4==-1 && color1==color4 || color1==color4 && numb1==numb4){
+cout << 1 << endl;
 }
-if(color4 == color2)
-    b = "2";
-else (numb4 == numb2);
-{
-    b = "2";
+if(color4== "?" && numb2==numb4 || numb4==-1 && color2==color4 || color2==color4 && numb2==numb4){
+cout << 2 << endl;
 }
-if(color4 == color3)
-    c = "3";
-else (numb4 == numb3);
-{
-    c = "3";
-}
-if(color1 == "?")
-a = "1";
-else (numb1 == numb1);
-{
-    a = "1";
-}
-if(color2 == "?")
-    b = "";
-else (numb2 == -1);
-{
-    b = "";
-}
-if(color3 == "?")
-    c = "";
-else (numb3 == -1);
-{
-    c = "";
-}
-if(a == "1"){
-    cout << 1 << endl;
-}
-if(b == "2"){
-    cout << 2 << endl;
-}
-if(c == "3"){
-    cout << 3 << endl;
+if(color4== "?" && numb3==numb4 || numb4==-1 && color3==color4 || color3==color4 && numb3==numb4){
+cout << 3 << endl;
 }
 }
 
